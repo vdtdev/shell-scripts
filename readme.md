@@ -8,13 +8,17 @@ This repo contains various shell scripts I've written that could potentially be 
 
 ## Scripts
 
-### sh-promote.sh
+### /shell
+
+#### sh-promote.sh
 
 - Takes in two parameters; the first is the name of a shell script (e.g. script.sh), the second is the name of the executable script file to be created
 - Basically copies source .sh file and makes copy executable with chmod, but has usage info for fun
 - Use it on itself to make a version you can stick in your user bin folder so it can be used anywhere
 
-### rvm-cfg.rb
+### /ruby
+
+#### rvm-cfg.rb
 
 - Ruby script that creates/replaces RVM `.ruby-version` and `.ruby-gemset` files
 - Can take version and gemset name as two separate parameters, both together separated with `@` (`1.2.3@tools`), or just a version number
